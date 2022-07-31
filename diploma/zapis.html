@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн запись</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/diploma/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <link type="image/png" href="/diploma//Images/mainpage/favicon.png" rel="shortcut icon">
+
+</head>
+</head>
+<body>
+    <div class="form">
+        
+    <p>Для оформления записи заполните форму ниже:</p>
+
+    <div class="one"> 
+         <div class="one_label">
+            <label for="text1">Ваше имя:</label> 
+         </div>
+          <div class="one_one"> 
+            <input type="text" name="text1" class="text1">
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="two">
+         <div class="two_label">
+             <label for="spisok">Выберите день:</label>
+         </div>
+
+         <div class="two_two">
+             <select name="spisok" id="spisok" class="text2">
+                 <option value="1" selected>Понедельник</option>
+                 <option value="2">Вторник</option>
+                <option value="3" >Среда</option>
+                <option value="4" >Четверг</option>
+                <option value="5" >Пятница</option>
+                <option value="6" >Суббота</option>
+                <option value="7" >Воскресение</option>
+
+            </select>
+        </div>
+        <div class="three_label">
+            <label for="spisok">Выберите услугу:</label>
+        </div>
+
+        <div class="three_three">
+            <select name="spisok" id="spisok" class="text2">
+                <option value="1" selected>Маникюр</option>
+                <option value="2">Педикюр</option>
+                <option value="3" >Паркмахерские услуги</option>
+                <option value="4" >Косметология</option>
+                <option value="4" >Визаж</option>
+                <option value="4" >Эстетист по телу</option>
+              
+
+           </select>
+       </div>
+    </div>
+    
+<br>
+<br>
+   
+
+    <p>Дополнительный комментарий:</p>
+    <textarea name="textarea" id="textarea" cols="30" rows="10">Введите сюда свои пожелания/замечения....</textarea>
+    <br>
+    <input type="submit" value="Оформить заявку" name="submit" onclick="zapis() " class="submitZap">
+       </form>
+       <p>Согласен/на на обработку персональный данных <input type="checkbox" name="chekbox" checked></p>
+</div>
+<script src="/diploma/zapis.js"></script>
+</body>
+</html>
